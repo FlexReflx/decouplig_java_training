@@ -1,6 +1,10 @@
 package fr.lernejo.guessname;
 
+import fr.lernejo.logger.Logger;
+import fr.lernejo.logger.LoggerFactory;
+
 public class ComputeurPlayer implements Player{
+    Logger logger = LoggerFactory.getLogger("player");
     long nb;
     long min =0;
     long max = 100;
@@ -16,7 +20,7 @@ public class ComputeurPlayer implements Player{
 
     @Override
     public void respond(boolean lowerOrGreater) {
-        System.out.println("guess : "+nb);
+        logger.log("guess : "+nb);
         if(lowerOrGreater){
             this.max = nb;
             this.nb= (long)nb/2;

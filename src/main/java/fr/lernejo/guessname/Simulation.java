@@ -32,7 +32,7 @@ public class Simulation {
     }
 
     public void loopUntilPlayerSucceed(long max_iter) {
-        System.out.println("to GUESS : " + this.numberToGuess);
+        logger.log("to GUESS : " + this.numberToGuess);
         long restant = 0;
         long debut = System.currentTimeMillis();
         while (!this.nextRound() && restant < max_iter) {

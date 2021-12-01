@@ -1,0 +1,12 @@
+2021-12-01   15:26:18.651 fr.lernejo.logger.ConsoleLogger to GUESS : 50
+2021-12-01   15:26:18.662 fr.lernejo.logger.ConsoleLogger guess : 80
+2021-12-01   15:26:18.663 fr.lernejo.logger.ConsoleLogger guess : 40
+2021-12-01   15:26:18.663 fr.lernejo.logger.ConsoleLogger guess : 60
+2021-12-01   15:26:18.663 fr.lernejo.logger.ConsoleLogger guess : 30
+2021-12-01   15:26:18.664 fr.lernejo.logger.ConsoleLogger guess : 45
+2021-12-01   15:26:18.664 fr.lernejo.logger.ConsoleLogger guess : 52
+2021-12-01   15:26:18.664 fr.lernejo.logger.ConsoleLogger guess : 26
+2021-12-01   15:26:18.665 fr.lernejo.logger.ConsoleLogger guess : 39
+2021-12-01   15:26:18.665 fr.lernejo.logger.ConsoleLogger guess : 45
+2021-12-01   15:26:18.665 fr.lernejo.logger.ConsoleLogger guess : 48
+2021-12-01   15:26:18.667 fr.lernejo.logger.ConsoleLogger Partie terminée avec succès en:0:4

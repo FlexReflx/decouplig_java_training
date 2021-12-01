@@ -5,6 +5,6 @@ import fr.lernejo.logger.Logger;
 
 public class LoggerFactory {
     public static Logger getLogger(String name){
-        return new ConsoleLogger();
+        return new ContextualLogger(ConsoleLogger.class.getName(),new FileLogger("logs.txt"));
         };
     }
