@@ -1,7 +1,6 @@
-package fr.lernejo.guessname;
+package fr.lernejo.guessgame;
 
 import java.security.SecureRandom;
-import java.util.Scanner;
 
 public class Launcher {
     public static void main(String[] args) {

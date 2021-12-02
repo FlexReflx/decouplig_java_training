@@ -1,8 +1,7 @@
-package fr.lernejo.guessname;
+package fr.lernejo.guessgame;
 import fr.lernejo.logger.Logger;
 import fr.lernejo.logger.LoggerFactory;
 
-import java.util.Scanner;
 public class Simulation {
 
     private final Logger logger = LoggerFactory.getLogger("simulation");
